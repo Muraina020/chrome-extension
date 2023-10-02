@@ -1,0 +1,110 @@
+.mean{
+    min-width: 300px;
+    padding: 10px 20px;
+}
+.img-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.helpm{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(39, 39, 107);
+}
+.layy{
+    display: flex;
+    gap:20px;
+}
+.laya>img{
+    width: 30px;
+    height: 30px;
+}
+.setting{
+    display: flex;
+    gap: 10px;
+}
+/* .img{
+    font-size: 20px;
+} */
+
+.scree{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+   
+}
+.monitor{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 10px;
+    font-size: 15px;
+    color: gray;
+}
+.tab{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 10px;
+    font-size: 15px;
+    color: gray;
+}
+.record{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    border: 1px solid rgb(40, 40, 174);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: rgb(40, 40, 174);
+    font-size: 16px;
+}
+.audio{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    border: 1px solid rgb(40, 40, 174);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: rgb(40, 40, 174);
+    font-size: 16px;
+}
+.rec{
+    display: flex;
+    gap: 10px;
+}
+.aud{
+    display: flex;
+    gap: 10px;
+
+}
+.mon{
+    width: 12px;
+    height: 12px;
+}
+.cam>img{
+   width: 25px;
+   height: 25px;
+}
+.tog>img{
+    width: 25px;
+    height: 15px;
+}
+.set>img{
+    width: 20px;
+    height: 20px;
+}
+
+button{
+    background-color: rgb(37, 37, 157);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+}
+button:hover{
+    box-shadow: 1px 0px 10px #eee;
+}

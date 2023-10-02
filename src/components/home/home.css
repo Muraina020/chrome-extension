@@ -1,0 +1,86 @@
+.container{
+    margin-left: 150px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px 120px;
+    padding: 30px 15px;
+    
+}
+.img-Wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px 10px 20px;
+}
+.img-Wrapper2{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(27, 27, 61);
+    padding: 20px 100px 10px 20px;
+    color: white;
+    border-radius: 15px;
+}
+.leys{
+    display: flex;
+    flex-direction: column;
+    grid-area: 8px;
+}
+.ley{
+    display: flex;
+    gap: 5px;
+}
+.help1{
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(27, 27, 61);
+}
+.help2{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin:20px 0px ;
+}
+.hands{
+    display: flex;
+    gap: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+.hands>p{
+    margin-top: 40px;
+}
+.icon{
+    margin-top: 17px;
+}
+.imgs{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+  
+}
+.Layer4{
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+.Layer4>p{
+    margin-top: 50px;
+}
+.Layer5{
+    display: flex;
+    gap: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+.Layer5>p{
+    margin-top: 40px;
+}

@@ -1,0 +1,4 @@
+
+Bidirectional key parties of chrome extension
+
+popup.js <---> tab (content script) <---> background.js script
