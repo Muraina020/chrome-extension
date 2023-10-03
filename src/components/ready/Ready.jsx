@@ -5,6 +5,11 @@ import video2 from "../../assets/video2.png"
 import {AiOutlinePlayCircle} from "react-icons/ai"
 import {FiVolume2} from "react-icons/fi"
 import {AiOutlineSetting} from "react-icons/ai"
+import {BiLogoFacebookCircle} from "react-icons/bi"
+import {BsTelegram} from "react-icons/bs"
+import {FiCopy} from "react-icons/fi"
+import {ImWhatsapp} from "react-icons/im"
+import {BsPencil} from "react-icons/bs"
 import Footer from '../footer/Footer'
 
 const Ready = () => {
@@ -18,14 +23,14 @@ const Ready = () => {
             <div className='sides'>
         <div className='left-side'>
             <h1>Your video is ready!</h1>
-            <label>Name</label>
-            <span className='untitle'>Untitled_Video_20232509 <small className='icon'>icon</small></span>
+            <label className='lb'>Name</label>
+            <span className='untitle'>Untitled_Video_20232509 <small className='icon'><BsPencil/></small></span>
 
             <div className='input-cont'>
             <div className='input'>
                 <input type="email" placeholder='enter email of receiver' />
             </div>
-            <button>send</button>
+            <button className='bt'>send</button>
             </div>
 
             <h3>Video Url</h3>
@@ -33,21 +38,21 @@ const Ready = () => {
             <div className='input'>
                 <input type="email" placeholder='https://www.helpmeout/united_video_203234764' />
             </div>
-            <button className='copy'><span className='icon'>icon</span>send</button>
+            <button className='copy'><span className='cp1'><FiCopy/></span>send</button>
             </div>
             <h3>Share your video</h3>
 
             <div className='socio'>
                 <span className='media'>
-                    <span>icon</span>
+                    <span className='ico'><ImWhatsapp/></span>
+                    <span className='fb'>whatsapp</span>
+                </span>
+                <span className='media'>
+                    <span className='ic1'><BiLogoFacebookCircle/></span>
                     <span className='fb'>Facebook</span>
                 </span>
                 <span className='media'>
-                    <span>icon</span>
-                    <span className='fb'>Facebook</span>
-                </span>
-                <span className='media'>
-                    <span>icon</span>
+                    <span className='ic2'><BsTelegram/></span>
                     <span className='fb'>Facebook</span>
                 </span>
                

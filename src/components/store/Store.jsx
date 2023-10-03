@@ -82,7 +82,7 @@ const Store = () => {
                </div>
                <span className='sw'><RxSwitch/></span>
             </div>
-            <button>Start Recording</button>
+            {/* <button>Start Recording</button> */}
             </div>
                 </div>
 

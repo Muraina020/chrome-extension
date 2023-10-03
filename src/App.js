@@ -5,14 +5,15 @@ import {
 } from "react-router-dom";
 import StorePage from "./pages/storePage/StorePage";
 import ReadyPage from "./pages/readyPage/ReadyPage";
+import HomePage from "./pages/homePage/HomePage";
 
 
 function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<ReadyPage/>}/>
-      {/* <Route path="/store" element={<StorePage/>}/> */}
+      {/* <Route path="/" element={<ReadyPage/>}/> */}
+      <Route path="/" element={<HomePage/>}/>
       {/* <Route path="/access" element={<AccessPage/>}/> */}
       {/* <Route path="/chrome" element={<RecordPage/>}/> */}
       

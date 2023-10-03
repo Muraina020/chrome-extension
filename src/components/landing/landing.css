@@ -1,0 +1,133 @@
+.landing{
+  
+    padding-top: 30px;
+}
+.show{
+    display: flex;
+    gap: 5px;
+   padding: 30px 70px;
+}
+.lef{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 90px;
+    padding-right: 30px;
+}
+.righ{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   background: white;
+}
+.img-col1>img{
+    width: 230px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.img-col2>img{
+    width: 230px;
+    height: 360px;
+    margin-top: 5px;
+}
+.btn{
+    height: 30px;
+    width: 200px;
+    padding: 5px 20px;
+    background-color: rgb(48, 48, 128);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+}
+.left>span{
+    font-size: 13px;
+}
+.titles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.feature{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 30px;
+   padding: 35px 30px 30px 50px;
+   
+}
+.f-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ 
+  
+   
+}
+.simple-cont{
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+.simple-cont>img{
+    width: 35px;
+    height: 30px;
+    margin-top: 5px;
+}
+.simple{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.simple>label{
+    font-size: 18px;
+    font-weight: 600;
+}
+.simple>span{
+  font-size: 14px;
+
+}
+.f-right{
+    width: 60%;
+}
+.f-right>img{
+    width: 500px;
+    height: 300px;
+}
+.works{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 30px 30px 30px 75px;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+.works-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 85%;
+  
+}
+.img-num>img{
+    width: 35px;
+    height: 30px;
+}
+.works-cont>label{
+    font-size: 18px;
+    font-weight: 600;
+}
+.works-cont>span{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.works-img>img{
+    width: 100%;
+    height: 200px;
+}

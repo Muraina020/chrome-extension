@@ -1,10 +1,10 @@
 import React from 'react'
 import "./homePage.css"
-import Home from '../../components/home/Home'
+import Landing from '../../components/landing/Landing'
 
 const HomePage = () => {
   return (
-    <div className=''><Home/></div>
+    <div className=''><Landing/></div>
   )
 }
 
