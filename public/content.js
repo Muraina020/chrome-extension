@@ -13,7 +13,7 @@ function onAccessApproved(stream){
                 track.stop()
              
             }
-            window.location.href = "https://www.google.com/";
+            // window.location.href = "https://www.google.com/";
         })
         let a = document.createElement("a");
 
